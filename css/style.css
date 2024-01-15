@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #707070;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+
+}
+
+.boxCalc{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #5c5c5c;
+    color: #fff;
+
+}
+button:hover{
+
+    background-color: #3d3d3d;
+    
+
+}
+.bntResult{
+
+    
+    background-color: rgb(190, 124, 0);
+    height: 102px;
+    width: 50px;
+
+} .bntResult:hover{
+    background-color:rgb(224, 157, 33); ;
+}
+
+.btnZ{
+
+    height: 50px;
+    width: 102px;
+    
+}
+.tela{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    
+
+    background-color: rgba(99, 99, 99, 0.226);
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+span{
+    position: relative;
+    top: 800px;
+}
+h1{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 145px;
+
+}
+a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
+@media only screen and (max-width: 600px){
+
+    .mb{
+
+        position: relative;
+        top: 0px;
+    }
+    span
+    {
+        position: relative;
+        top:660px;
+    
+    }
+}
