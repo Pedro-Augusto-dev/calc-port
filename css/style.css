@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #707070;
+    background: #2b2b2b;
     height: 100vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #2e2e2e;
+    background-color: #a5a5a5;
     padding: 20px;
     border-radius: 20px;
 
@@ -48,6 +48,7 @@ button:hover{
     
 
 }
+
 .bntResult{
 
     
@@ -72,7 +73,7 @@ button:hover{
     
     
 
-    background-color: rgba(99, 99, 99, 0.226);
+    background-color: #5c5c5c;
     height: 40px;
     color: white;
     font-size: 25px;
@@ -84,6 +85,7 @@ button:hover{
 span{
     position: relative;
     top: 800px;
+    font-weight: 600;
 }
 h1{
 
@@ -101,17 +103,90 @@ a{
 
 
 }
+.clean{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+
+    width: 100px;
+    height: 40px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #b6b6b6;;
+    color: black;
+
+} .clean:hover{
+
+    background-color: #ffffff;
+    transition: 0.5s;
+    
+    color: black;
+    border: none;
+
+}
+.dark{
+
+    
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    display: none;
+
+    width: 100px;
+    height: 40px;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    background-color: #292929;
+
+} .dark:hover{
+
+    transition: 0.5s;
+    background-color:#4d4c4c ;
+    border: none;
+    
+
+
+}
 @media only screen and (max-width: 600px){
 
     .mb{
 
         position: relative;
-        top: 0px;
+        top: 100px;
+        font-size: 20px;
+        text-transform: uppercase;
     }
     span
     {
         position: relative;
-        top:660px;
+        top:600px;
+        font-weight: 600;
     
+    }
+    .clean{
+
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+    .dark{
+
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 600;
+
     }
 }
